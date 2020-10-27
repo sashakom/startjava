@@ -2,7 +2,7 @@ public class Calculator {
 	public static void main(String[] args) {
 		String operator = "^";
 		int first = 11;
-		int second = 8;
+		int second = 3;
 		if (operator == "+") {
 			int sum = first + second;
 			System.out.println("Sum = " + sum);
@@ -16,8 +16,8 @@ public class Calculator {
 			int div = first / second;
 			System.out.println("Div = " + div);
 		} else if (operator == "^") {
-			int sq = first;
-			for (int i = 1; i < second; i++) {
+			int sq = 1;
+			for (int i = 1; i <= second; i++) {
 				sq *= first;
 			}
 			System.out.println("Sq = " + sq);
