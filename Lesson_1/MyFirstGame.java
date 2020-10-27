@@ -4,10 +4,10 @@ public class MyFirstGame {
 		int result = 50;
 		while (result != number) {
 			if (result > number) {
-				System.out.println("Result less number");
+				System.out.println("Result " + result + " less number");
 				result = result / 2;
 			} else if (result < number) {
-				System.out.println("Result more number");
+				System.out.println("Result " + result + " more number");
 				result = result + 1;
 			}
 		}
